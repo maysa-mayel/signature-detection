@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from pip import convert_from_path
+from pdf2image import convert_from_path
 import pandas as pd
 import cv2
 import numpy as np
